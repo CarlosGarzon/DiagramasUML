@@ -2736,7 +2736,7 @@
 						"$ref": "AAAAAAGDJFI15OHUOjk="
 					},
 					"name": "Asistente de búsqueda de accesorio y repuesto TR-002, TR-003",
-					"documentation": "\nTR-002:  Yo como comprador necesito seleccionar la opción buscar repuesto o accesorio en el menú para poder utilizar el asistente de búsqueda de repuesto o accesorio. \n\nCriterios: \n\n1. Cuando el comprador seleccione la opción buscar repuesto  entonces verá una pantalla con dos botones: Repuestos y accesorios.\n\n2. Cuando el comprador seleccione el botón Repuesto, entonces verá el asistente para seleccionar repuestos .\n\n3. Cuando el comprador visualiza el asistente de busqueda de repuestos, entonces podrá seguir los pasos indicados para seleccionar el repuesto de su interés \n\n4. Cuando el comprador selecciona el repuesto de su interés, entonces ese repuesto deberá ser guardado en una lista de repuestos seleccionados y aparecerán los botones de buscar otro repuesto o terminar\n\n5.Cuando el comprador seleccione el botón terminar, entonces  será redirigido a la pantalla principal.\n\n6. Cuando el comprador seleccione la opción buscar otro repuesto, entonces será redirigido de nuevo al primer paso del asistente y podrá continuar el flujo\n\nTR-003:  Yo como Comprador necesito seleccionar la opción buscar accesorio en el menú  para poder utilizar el asistente de búsqueda de accesorio. \n\nCriterios: \n\n\n1. Cuando el comprador seleccione la opción buscar accesorios  entonces verá una pantalla con dos botones: Repuestos y accesorios.\n\n2. Cuando el comprador seleccione el botón accesorios, entonces verá el asistente para seleccionar accesorio \n\n3. Cuando el comprador visualiza el asistente de busqueda de repuestos, entonces podrá seguir los pasos indicados para seleccionar el accesorio de su interés \n\n 4. Cuando el comprador selecciona el accesorio de su interés, entonces ese repuesto deberá ser guardado en una lista de accesorio y aparecerán los botones de buscar otro accesorio o terminar\n\n5. Cuando el comprador seleccione el botón terminar, entonces  será redirigido a la pantalla principal.\n\n6. Cuando el comprador seleccione la opción buscar otro accesorio, entonces será redirigido de nuevo al primer paso del asistente y podrá continuar el flujo\n\n\n",
+					"documentation": "\nTR-002:  Yo como comprador necesito seleccionar la opción buscar repuesto o accesorio en el menú para poder utilizar el asistente de búsqueda de repuesto o accesorio. \n\nCriterios: \n\n1. Cuando el comprador seleccione la opción buscar repuesto  entonces verá una pantalla con dos botones: Repuestos y accesorios.\n\n2. Cuando el comprador seleccione el botón Repuesto, entonces verá el asistente para seleccionar repuestos .\n\n3. Cuando el comprador visualiza el asistente de busqueda de repuestos, entonces podrá seguir los pasos indicados para seleccionar el repuesto de su interés \n\n4. Cuando el comprador selecciona el repuesto de su interés, entonces ese repuesto deberá ser guardado en una lista de repuestos seleccionados y aparecerán los botones de buscar otro repuesto o terminar\n\n5. Cuando el comprador seleccione el botón terminar, entonces  será redirigido a la pantalla principal.\n\n6. Cuando el comprador seleccione la opción buscar otro repuesto, entonces será redirigido de nuevo al primer paso del asistente y podrá continuar el flujo\n\nTR-003:  Yo como Comprador necesito seleccionar la opción buscar accesorio en el menú  para poder utilizar el asistente de búsqueda de accesorio. \n\nCriterios: \n\n\n1. Cuando el comprador seleccione la opción buscar accesorios  entonces verá una pantalla con dos botones: Repuestos y accesorios.\n\n2. Cuando el comprador seleccione el botón accesorios, entonces verá el asistente para seleccionar accesorio \n\n3. Cuando el comprador visualiza el asistente de busqueda de repuestos, entonces podrá seguir los pasos indicados para seleccionar el accesorio de su interés \n\n4. Cuando el comprador selecciona el accesorio de su interés, entonces ese repuesto deberá ser guardado en una lista de accesorio y aparecerán los botones de buscar otro accesorio o terminar\n\n5. Cuando el comprador seleccione el botón terminar, entonces  será redirigido a la pantalla principal.\n\n6. Cuando el comprador seleccione la opción buscar otro accesorio, entonces será redirigido de nuevo al primer paso del asistente y podrá continuar el flujo\n\n\n",
 					"ownedViews": [
 						{
 							"_type": "UMLUseCaseSubjectView",
@@ -3763,7 +3763,7 @@
 									"font": "Arial;13;0",
 									"left": 767.5,
 									"top": 532.5,
-									"width": 152,
+									"width": 152.30810546875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKqTd1RGAG9w="
@@ -3962,7 +3962,7 @@
 									"font": "Arial;13;0",
 									"left": 534,
 									"top": 588.5,
-									"width": 142,
+									"width": 142.919921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKqcBmxTnme8="
@@ -5765,7 +5765,7 @@
 						"$ref": "AAAAAAGDJFI15OHUOjk="
 					},
 					"name": "Revisar compra TR-004",
-					"documentation": "Yo como: comprador necesito revisar los repuestos y accesorios que seleccione en mi compra para para eliminar o agregar más productos si lo necesita y posteriormente publicar. \n\nCriterios: \n\n\n1. Cuando el comprador entre a la sección de revisar su compra, entonces verá un listado de los repuestos y accesorios que seleccionó\n\n2. Cuando el comprador elimina un repuesto o accesorio de la lista, entonces dicho artículo se eliminará de la lista que será publicada y desaparecerá de la pantalla. \n\n3. Cuando el comprador esté en la opción revisar compra entonces visualiza el botón publicar compra pero este aún no tendrá funcionalidad.\n\n",
+					"documentation": "Yo como: comprador necesito revisar los repuestos y accesorios que seleccione en mi compra para para eliminar o agregar más productos si lo necesita y posteriormente publicar. \n\nCriterios: \n\n1. Cuando el comprador entre a la sección de revisar su compra, entonces verá un listado de los repuestos y accesorios que seleccionó\n\n2. Cuando el comprador elimina un repuesto o accesorio de la lista, entonces dicho artículo se eliminará de la lista que será publicada y desaparecerá de la pantalla. \n\n3. Cuando el comprador esté en la opción revisar compra entonces visualiza el botón publicar compra pero este aún no tendrá funcionalidad.\n\n",
 					"ownedViews": [
 						{
 							"_type": "UMLUseCaseSubjectView",
@@ -6118,7 +6118,7 @@
 									"font": "Arial;13;0",
 									"left": 671,
 									"top": 340.5,
-									"width": 109,
+									"width": 109.708984375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKsAI42AbWO8="
@@ -6307,7 +6307,7 @@
 									"font": "Arial;13;0",
 									"left": 670.5,
 									"top": 444.5,
-									"width": 108,
+									"width": 108.236328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKsBgoWBJk7U="
@@ -6500,7 +6500,7 @@
 									"font": "Arial;13;0",
 									"left": 569.5,
 									"top": 580.5,
-									"width": 121,
+									"width": 121.9599609375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKsFqt2B3FDs="
@@ -7817,7 +7817,7 @@
 									"font": "Arial;13;0",
 									"left": 656,
 									"top": 300.5,
-									"width": 113,
+									"width": 114.025390625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKsh8zGM2qSA="
@@ -8281,7 +8281,7 @@
 									"font": "Arial;13;0",
 									"left": 533,
 									"top": 460.5,
-									"width": 140,
+									"width": 140.0380859375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKsmjlWSs/fo="
@@ -8856,7 +8856,7 @@
 						"$ref": "AAAAAAGDJFI15OHUOjk="
 					},
 					"name": "Recibir publicaciones de compras  TR-006",
-					"documentation": "Yo como vendedor necesito recibir la notificación de las solicitudes de productos que realizan posibles compradores para posteriormente poder evaluar y hacer una oferta.\n\nCriterios: \n\n1- Cuando un comprador realice la publicación de una compra, entonces los vendedores que se encuentran en su radio de búsqueda recibirán una notificación con vibración y un mensaje que indique que puede realizar una oferta\n\n2. Cuando ha llegado la notificación de una solicitud de compra, el vendedor podrá verla en el listado de su pantalla principal. \n\n3. Cuando llega una nueva notificación de solicitud de compra a un vendedor, entonces esta debe listarse en el home de primeras bajo el criterio de cola (LIFO) \n\n",
+					"documentation": "Yo como vendedor necesito recibir la notificación de las solicitudes de productos que realizan posibles compradores para posteriormente poder evaluar y hacer una oferta.\n\nCriterios: \n\n1. Cuando un comprador realice la publicación de una compra, entonces los vendedores que se encuentran en su radio de búsqueda recibirán una notificación con vibración y un mensaje que indique que puede realizar una oferta\n\n2. Cuando ha llegado la notificación de una solicitud de compra, el vendedor podrá verla en el listado de su pantalla principal. \n\n3. Cuando llega una nueva notificación de solicitud de compra a un vendedor, entonces esta debe listarse en el home de primeras bajo el criterio de cola (LIFO) \n\n",
 					"ownedViews": [
 						{
 							"_type": "UMLUseCaseSubjectView",
@@ -10778,7 +10778,7 @@
 									"font": "Arial;13;0",
 									"left": 557,
 									"top": 340.5,
-									"width": 98,
+									"width": 99.55908203125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtRHLXEd61M="
@@ -10971,7 +10971,7 @@
 									"font": "Arial;13;0",
 									"left": 724.5,
 									"top": 428.5,
-									"width": 97,
+									"width": 98.13720703125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtUfGHFOxx0="
@@ -11522,7 +11522,7 @@
 									"font": "Arial;13;0",
 									"left": 614,
 									"top": 500.5,
-									"width": 143,
+									"width": 143.64990234375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtaNxXLrevc="
@@ -11716,7 +11716,7 @@
 									"font": "Arial;13;0",
 									"left": 540,
 									"top": 572.5,
-									"width": 94,
+									"width": 95.25537109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtc2JXN24ck="
@@ -11915,7 +11915,7 @@
 									"font": "Arial;13;0",
 									"left": 707,
 									"top": 572.5,
-									"width": 129,
+									"width": 129.9326171875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtdfKXPXd/I="
@@ -12114,7 +12114,7 @@
 									"font": "Arial;13;0",
 									"left": 517.5,
 									"top": 436.5,
-									"width": 102,
+									"width": 103.1962890625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDKtgSw3U6ec4="
@@ -13475,7 +13475,7 @@
 									"font": "Arial;13;0",
 									"left": 487.5,
 									"top": 380.5,
-									"width": 111,
+									"width": 112.3623046875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLjqQqz6FbLg="
@@ -13671,7 +13671,7 @@
 									"font": "Arial;13;0",
 									"left": 499.5,
 									"top": 468.5,
-									"width": 94,
+									"width": 94.53173828125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLjrzGT60XwE="
@@ -16856,7 +16856,7 @@
 									"font": "Arial;13;0",
 									"left": 508.5,
 									"top": 300.5,
-									"width": 137,
+									"width": 137.8671875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkJ/OVHpDDQ="
@@ -17325,7 +17325,7 @@
 									"font": "Arial;13;0",
 									"left": 535,
 									"top": 396.5,
-									"width": 72,
+									"width": 72.1435546875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkMcMVJ9l2g="
@@ -17794,7 +17794,7 @@
 									"font": "Arial;13;0",
 									"left": 415.5,
 									"top": 492.5,
-									"width": 73,
+									"width": 73.59716796875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkN6WFRanW4="
@@ -17993,7 +17993,7 @@
 									"font": "Arial;13;0",
 									"left": 550.5,
 									"top": 476.5,
-									"width": 108,
+									"width": 108.26806640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkOZUVT0S2s="
@@ -18673,7 +18673,7 @@
 									"font": "Arial;13;0",
 									"left": 722,
 									"top": 524.5,
-									"width": 125,
+									"width": 125.578125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkeUkm0Hagk="
@@ -19561,7 +19561,7 @@
 									"font": "Arial;13;0",
 									"left": 610,
 									"top": 372.5,
-									"width": 86,
+									"width": 86.5908203125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkzbl3QTV1o="
@@ -19755,7 +19755,7 @@
 									"font": "Arial;13;0",
 									"left": 491,
 									"top": 628.5,
-									"width": 127,
+									"width": 128.47265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLkzjzXRA+/U="
@@ -21031,7 +21031,7 @@
 									"font": "Arial;13;0",
 									"left": 552.5,
 									"top": 500.5,
-									"width": 117,
+									"width": 117.6181640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLk4Oz30g3Go="
@@ -23878,7 +23878,7 @@
 									"font": "Arial;13;0",
 									"left": 530,
 									"top": 292.5,
-									"width": 123,
+									"width": 124.14990234375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLlParI2Sd3E="
@@ -24074,7 +24074,7 @@
 									"font": "Arial;13;0",
 									"left": 700,
 									"top": 572.5,
-									"width": 134,
+									"width": 134.97265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLlQFKI3ANyE="
@@ -25007,7 +25007,7 @@
 									"font": "Arial;13;0",
 									"left": 777.5,
 									"top": 380.5,
-									"width": 84,
+									"width": 84.41357421875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGDLlSlYY/hvIU="
@@ -25617,7 +25617,7 @@
 						"$ref": "AAAAAAGDJFI15OHUOjk="
 					},
 					"name": "Login y registro TR-015",
-					"documentation": "Yo como comprador o vendedor necesito poderse registrar y logear en el aplicativo\npara poder hacer uso de las funcionalidades.\n\nCriterios: \n\n1. Cuando el comprador en la pantalla de login del sistema, indique que quiere iniciar como comprador, entonces podrá ver las opciones ingresar o registrarse\n\n2.Cuando el comprador haga clic en el botón ingresar,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n3.Cuando el comprador haga clic en el botón registrarse,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n4.Cuando el vendedor en la pantalla de login del sistema, indique que quiere iniciar como vendedor, entonces podrá ver las opciones ingresar o registrarse\n\n5.Cuando el vendedor haga clic en el botón ingresar, entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n6. Cuando el vendedor haga clic en el botón registrarse,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n",
+					"documentation": "Yo como comprador o vendedor necesito poderse registrar y logear en el aplicativo\npara poder hacer uso de las funcionalidades.\n\nCriterios: \n\n1. Cuando el comprador en la pantalla de login del sistema, indique que quiere iniciar como comprador, entonces podrá ver las opciones ingresar o registrarse\n\n2. Cuando el comprador haga clic en el botón ingresar,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n3. Cuando el comprador haga clic en el botón registrarse,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n4. Cuando el vendedor en la pantalla de login del sistema, indique que quiere iniciar como vendedor, entonces podrá ver las opciones ingresar o registrarse\n\n5. Cuando el vendedor haga clic en el botón ingresar, entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n6. Cuando el vendedor haga clic en el botón registrarse,  entonces podrá hacerlo con google o con facebook haciendo click en el botón correspondiente.\n\n",
 					"ownedViews": [
 						{
 							"_type": "UMLUseCaseSubjectView",
