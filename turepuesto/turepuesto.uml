@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.turepuesto</OriginalElement>
+  <nodes>
+    <node x="198.25" y="0.0">com.turepuesto.Person</node>
+    <node x="400.0" y="522.0">com.turepuesto.Buyer</node>
+    <node x="0.0" y="522.0">com.turepuesto.Seller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.turepuesto.Buyer" target="com.turepuesto.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="586.5" y="497.0" />
+      <point x="388.25" y="497.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="com.turepuesto.Seller" target="com.turepuesto.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="190.0" y="497.0" />
+      <point x="388.25" y="497.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="386.5" y="289.0" />
+  <SelectedNodes>
+    <node>com.turepuesto.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

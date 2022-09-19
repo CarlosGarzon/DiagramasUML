@@ -1,0 +1,247 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 6,
+    "backwardDepth": 6,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "turepuesto.Compra",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_3708 { 
+   	label=turepuesto
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Accesorio3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Accesorio</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   tipoAccesorio: TipoAccesorio [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Actor3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Actor</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   direccion: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   nombre: String [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Articulo3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Articulo</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   Marca: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   nombre: String [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+CamposOferta3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)CamposOferta</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   descripcion: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   precio: int [1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Compra3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Compra</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   accesorios: ArrayList&lt;Accesorio&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   ofertasRecibidas: ArrayList&lt;Oferta&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   repuestos: ArrayList&lt;Repuesto&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Comprador3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Comprador</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   compras: ArrayList&lt;Compra&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Motocicleta3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Motocicleta</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   marca: MarcaMotocicleta [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   tipoMotocicleta: TipoMotocicleta [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Oferta3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Oferta</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   ofertaAccesorios: HashMap&lt;Accesorio, CamposOferta&gt; [0..*]</TD></TR>
+<TR><TD ALIGN="LEFT" >-   ofertaRepuestos: HashMap&lt;Repuesto, CamposOferta&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Repuesto3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Repuesto</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   motocicleta: Motocicleta [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Vendedor3708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Vendedor</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >-   compras: ArrayList&lt;Compra&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+'edges    
+Actor3708 -> Comprador3708[arrowhead=none, arrowtail=empty, dir=both];
+Actor3708 -> Vendedor3708[arrowhead=none, arrowtail=empty, dir=both];
+Articulo3708 -> Accesorio3708[arrowhead=none, arrowtail=empty, dir=both];
+Articulo3708 -> Repuesto3708[arrowhead=none, arrowtail=empty, dir=both];
+Compra3708 -> Accesorio3708[label="accesorios
+[0..*]"];
+Compra3708 -> Oferta3708[label="ofertasRecibidas
+[0..*]"];
+Compra3708 -> Repuesto3708[label="repuestos
+[0..*]"];
+Comprador3708 -> Compra3708[label="compras
+[0..*]"];
+Oferta3708 -> Accesorio3708[label="ofertaAccesorios
+[0..*]"];
+Oferta3708 -> CamposOferta3708[label="ofertaAccesorios
+[0..*]"];
+Oferta3708 -> CamposOferta3708[label="ofertaRepuestos
+[0..*]"];
+Oferta3708 -> Repuesto3708[label="ofertaRepuestos
+[0..*]"];
+Repuesto3708 -> Motocicleta3708[label="motocicleta
+[0..1]"];
+Vendedor3708 -> Compra3708[label="compras
+[0..*]"];
+    
+}
+@enduml
